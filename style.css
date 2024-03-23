@@ -1,0 +1,135 @@
+*{
+
+
+margin: 0;
+
+padding: 0;
+
+
+}
+
+#iss-1{
+    width: 100%;
+    min-height: 100vh;
+    background: url("photo.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid  rgb(46, 168, 208);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+H2{
+
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+
+
+}
+
+
+.inbotbox{
+
+    position: relative;
+    margin: 50px 0px;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+
+
+
+input[type="bassword"] {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50px);
+    color: #fff;
+    transition: .5s;
+}
+
+input[type="email"] {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #ffffff;
+
+}
+
+.inbotbox .samo1 {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+.forget{
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.forget label input{
+margin: 3px;
+text-decoration: none;
+
+
+
+}
+
+.forget label a{
+    color: #817b7b;
+    text-decoration: underline;
+
+
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+button:hover{
+background: #467b9a;
+
+
+
+}
